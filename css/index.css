@@ -1,7 +1,9 @@
+
 .header {
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
+
 
 /* ===Menu=== */
 
@@ -14,9 +16,9 @@
 .vertical-menu a {
     color: black;
     display: block;
-    padding: 15px;
+    padding: 25px;
     text-decoration: none;
-    margin: 3px 3px 3px 3px;
+    margin: 3px 3px 3px 1px;
 }
 
 
@@ -25,6 +27,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 38px;
     color: black;
+    margin: 3px 3px 3px 3px;
 }
 
 .top-bar {
@@ -45,7 +48,7 @@
 .top-bar a img {
     width: 20px;
     height: 20px;
-    padding: 0 2px 0 2px;
+    padding: 0 2px 0 1px;
 }
 
 .square {
@@ -68,7 +71,7 @@
 .square button {
     border: solid black 1px;
     padding: 1 1 1 1;
-    border-radius: 4px;
+    border-radius: 5px;
     text-align: center;
     justify-items: center;
     font-size: 2em;
@@ -77,12 +80,25 @@
     
 }
 
+.header-img {
+    padding: 10px;
+    float: right;
+    width: 850px;
+    height: 500px;
+}
+
 /* ===Style the timeline=== */
 
 /* The actual timeline */
+.timeline-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
 .timeline {
     position: relative;
-    max-width: auto;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -103,7 +119,8 @@
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
-    width: 50%;
+    width: 40%;
+    
 }
 
 /* The circles on the timeline */
@@ -123,7 +140,7 @@
 
 /* Place the container to the left */
 .left{
-    left: 0;
+    right: -3%;
 }
 
 /* Place the container to the right */
@@ -172,6 +189,24 @@
     border-radius: 6px;
   }
   
+  .purchase {
+      background-color: brown;
+      border-radius: 10px;
+      padding: 1 1 1 1;
+      margin: 1 1 1 1;
+      font-size: 1.5em;
+      width: 3em;
+
+  }
+
+  .elevator {
+      padding-top: 0;
+      margin-top: 0;
+      font-size: 18px;
+      justify-items: center;
+      text-align: center;
+
+  }
 /* ===Footer=== */
 
 .footer {
@@ -183,7 +218,7 @@
     color: black;
     justify-content: left;
     text-align: left;
-    margin: auto;
+    margin: 0;
   }
   
   .footer-column__wrapper {
@@ -213,8 +248,51 @@
     color: black;
   }
 
+  .section-bot{
+      background-color: white;
+  }
 
+  .section-bot h2 {
+      font-size: 2em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding-bottom: 1em;
+      padding-top: 1em;
+  }
 
+  .grid-items {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding-bottom: 0.5em;
+  }
+
+  .item1 {
+      grid-template-areas: 1/1/2/2;
+  }
+  .item1 img{
+      width: 300px;
+      height: 350px;
+  }
+  .item2{
+      grid-template-areas: 1/2/2/3;
+  }
+
+  .item2 img {
+    width: 300px;
+    height: 350px;
+  }
+  .item3{
+      grid-template-areas: 1/3/2/4;
+  }
+
+  .item3 img {
+    width: 300px;
+    height: 350px;
+  }
+
+  .cat-text {
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
