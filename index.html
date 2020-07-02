@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="/favicon/zara.png">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
+
 </head>
 <body>
     <header id="header" class="header">
@@ -29,10 +30,12 @@
         </nav>  
         <div class="square">
             <div>New Arrivals</div>
-            <button><a href="#time">Join us</a></button>    
+            <button><a href="#indicator">Subscribe</a></button>    
         </div>    
     </header>
-    <br>
+    <div id="promote" class="content">
+        <h2>Subscribe and get your first order 10% off</h2>
+    </div>
     <main>
         <div id="time" class="timeline">
             <div class="container left">
@@ -82,7 +85,6 @@
 
                 </div>
             </div>
-
         </div>
         <section class="section-bot">
             <h2>Shop by Catergories</h2>
@@ -146,9 +148,17 @@
             <a href="#">Gift card conditions</a>
             <a href="#">Accessibility in Ontario</a>
           </div>
+          <div class="footer-column">
+              <a href="#" class="title">Get our Newsletters</a>
+              <input style="border: solid black 2px;padding: 10px;" type="text" placeholder="Enter your email" name="email">
+              <br>
+              <button onclick="mySubscription()" class="sub">Subscribe</button>
+              <a id="indicator"></a>
+              
+          </div>
         
         </div>
       </footer>
-    
+<script src="/js/index.js"></script>    
 </body>
 </html>
