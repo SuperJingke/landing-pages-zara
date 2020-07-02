@@ -1,5 +1,80 @@
 .header {
-    background-image: url(/img/sunflower.jpg);
+    width: 100%;
+    height: 600px;
+}
+
+/* ===Menu=== */
+
+.vertical-menu {
+    width: 100px;
+    height: 200px;
+    /* overflow-y: auto; */
+}
+
+.vertical-menu a {
+    color: black;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    margin: 3px 3px 3px 3px;
+}
+
+
+
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    color: black;
+}
+
+.top-bar {
+    display: inline;
+    top: 1px;
+    padding: 1px 1px 1px 1px;
+    margin: 1px;
+
+}
+
+.top-bar a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-bar a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 2px 0 2px;
+}
+
+.square {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -259px;
+    height: 240px;
+    width: 240px;
+    background-color: #9DADFF;
+    
+}
+
+.square div{
+    font-size: 60px;
+    text-align: center;
+    justify-items: center;
+}
+
+.square button {
+    border: solid black 1px;
+    padding: 1 1 1 1;
+    border-radius: 4px;
+    text-align: center;
+    justify-items: center;
+    font-size: 2em;
+    margin-left: 28%;
+    margin-top: 10%;
+    
 }
 
 /* ===Style the timeline=== */
@@ -101,45 +176,41 @@
 
 .footer {
     padding-top: 25px;
-    padding-left: 0;
+    padding-left: 30px;
     padding-right: 0;
-    width: auto;
-    background-color: #333;
+    width: 100%;
+    background-color:white;
+    color: black;
     justify-content: left;
     text-align: left;
-    width: auto;
-  }
-  .footer-logo {
-    max-width: 120px;
-    max-height: 120px;
+    margin: auto;
   }
   
   .footer-column__wrapper {
     position: relative;
     width: auto;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
     font-size: 0;
     
   }
   .footer-column {
     display: inline-block;
     width: 200px;
-    height: 162px;
+    height: auto;
     vertical-align: top;
     margin: auto;
   }
   .footer-column a {
     line-height: 32px;
-    color: #bbb;
+    color:black;
     font-size: 14px;
   }
   .footer-column a:hover {
-    color: #ededed;
+    color: brown;
   }
   .footer-column .title {
-    font-size: 16px;
-    color: #ddd;
+    font-size: 25px;
+    color: black;
   }
 
 
@@ -152,6 +223,10 @@
       left: 31px;
     }
   
+
+    .square {
+        position: relative;
+    }
   /* Full-width containers */
     .container {
       width: 100%;
@@ -177,4 +252,10 @@
       left: 0%;
     }
   }
+  
+    .footer-column {
+        bottom: 0em;
+        margin: 0;
+        padding: 0;
+    }
   
