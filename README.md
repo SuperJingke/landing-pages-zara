@@ -7,7 +7,7 @@ Using the concept of timeline, it gives visitors a fresh look. With clean, simpl
 
 #### -vertical menu
 #### -navigation bar (sign up, shopping cart)
-#### -new arrivals timeline with best sellers
+#### -new arrivals timeline with best-seller products
 #### -'Back to top' elevator
 #### -footer
 #### -Subscription with Email (with indicator): you will see the confirmation on the page if you sucessfully submit your mailing address.
